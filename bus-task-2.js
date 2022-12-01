@@ -16,6 +16,10 @@ resemble the `ncTutorBusAtDestination` array (printed below):
 const ncTutorBus = ['Driver', 'Izzi', 'Anat', 'Liam', 'Haz', 'Foluso'];
 
 // <------ Write your code here ------>
+ncTutorBus.splice(1, 1, 'Hamza');
+ncTutorBus[2] = ""
+ncTutorBus.push("Mitch")
+ncTutorBus.push(ncTutorBus.splice(3, 1)[0]);
 
 const ncTutorBusAtDestination = [
   'Driver',
